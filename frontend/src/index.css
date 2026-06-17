@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  background: #1a1a2e;
+  color: #e0e0e0;
+}
+
+input, select, button {
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background: #16213e;
+  color: #e0e0e0;
+  font-size: 14px;
+}
+
+button {
+  background: #e94560;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #c73651;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #2a2a4a;
+  text-align: left;
+}
+
+th {
+  color: #e94560;
+}
